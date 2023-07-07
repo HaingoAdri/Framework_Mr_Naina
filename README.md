@@ -1,4 +1,3 @@
-Java Version : 8 ou +
 Tomcat Version : 10.0.4
 
 Pré-requis:
@@ -10,7 +9,7 @@ Pré-requis:
     . Ajouter ce bout de code dans votre web.xml (modifier <param-value> avec le package de vos classes) :
         <servlet>   
             <servlet-name>FrontServlet</servlet-name>
-            <servlet-class>etu2043.framework.servlet.FrontServlet</servlet-class>
+            <servlet-class>etu2069.framework.servlet.FrontServlet</servlet-class>
             <init-param>
             <param-name>package</param-name>
             <param-value> ... </param-value>
