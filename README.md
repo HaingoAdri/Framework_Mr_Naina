@@ -1,3 +1,4 @@
+Java Version : 8 ou +
 Tomcat Version : 10.0.4
 
 Pré-requis:
@@ -25,7 +26,6 @@ Pré-requis:
 Remarque :            
     . Si il y a des insertion à travers des formulaires le nom des champs dans le formulaire devrait correspondre aux noms des attributs de votre classe
         Exemple :
-            
             Employer.java
                 class Employer{
                     int id;
@@ -52,3 +52,6 @@ Remarque :
                 }
             Page.jsp
                 <a href="....?id=...&nom=...">
+
+NOTER BIEN QUE DANS WAR.BAT LE PATH PRESENT SERONT MODIFIER EN FONCTION DE VOTRE REPERTOIRE LOCAL DONC N'OUBLIER DE MODIFIER LES PAF SI VOUS VOULER UILISER LA FRAMEWORK
+ET NOTER BIEN ICI LE TEST SE FAIT DANS NETBEANS ET UTILSER JAVA8
