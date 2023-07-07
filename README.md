@@ -33,16 +33,7 @@ Remarque :
 
                     ...
                 }
-            AjoutEmployer.jsp 
-                ...
-                Id : <input ... name="id">
-		        Nom : <input ... name="nom">
-                ...
-
-
-
-    . Si votre fonction a besoin d'arguments , le nom des arguments devrait etre le meme que le nom des variables de l'url 
-        Exemple :
+            Exemple :
             Employer.java
                 class Employer{
                     ...
